@@ -1,7 +1,24 @@
-ここにpassのページを作ってください
+pass登録ページ
+
+<html>
+<head>
+<title>背景色を指定</title>
+</head>
+
+<body bgcolor="pink">
+
+</body>
+</html>
+
+<br>
+以下の項目を埋めてください
+
 <%= form_for (@pass)do |f| %>
 <%= f.label :タイトル %>
 <%= f.text_field :title %>
+<br>
+<%= f.label :写真 %>
+<%= f.file_field :image %>
 <br>
 <%= f.label :content,:内容 %>
 <%= f.text_area :content %>
@@ -9,5 +26,12 @@
 <%= f.label :price,:値段 %>
 <%= f.number_field :price %>
 <br>
+<%= f.label :time,:所要時間 %>
+<%= f.number_field :time %>
+<br>
+<%= f.label :conditions,:条件 %>
+<%= f.text_area :conditions %>
+<br>
 <%= f.submit :送信 %>
+
 <% end %>

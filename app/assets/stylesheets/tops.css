@@ -1,0 +1,44 @@
+header{
+  background-color: pink;
+  height:150px;
+  width:100%;
+}
+
+.studentlog{
+  text-align: center;
+}
+
+.logobox{
+  height: 100%;
+  width: 200px;
+  float: left;
+}
+
+.logout{
+  height: 100%;
+  width: 200px;
+  float: right;
+  text-align: center;
+}
+
+.student_logout{
+  line-height: 150px;
+  text-align: center;
+}
+
+.pass_post{
+  line-height: 150px;
+  text-align: center;
+}
+
+.passpo{
+  height: 100%;
+  width: 200px;
+  float: right;
+  text-align: center;
+}
+
+.salon_logout{
+  line-height: 150px;
+  text-align: center;
+}

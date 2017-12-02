@@ -4,6 +4,11 @@ class PassesController < ApplicationController
     @passes=Pass.all
   end
 
+  def show
+    Pass.find(params[:id])
+    @pass=Pass.find(params[:id])
+  end
+
   def new
     @pass=Pass.new
 
@@ -23,7 +28,8 @@ Pass.create(pass_params)#ここに保存するための記述をする
 private
 
   def pass_params
-    params.require(:pass).permit(:title,:content,:price)
+    params.require(:pass).permit(:title,:content,:price,:time,:conditions,:image)
+
   end
 
 end

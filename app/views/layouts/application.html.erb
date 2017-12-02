@@ -7,7 +7,30 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+<header>
 
+<div class="logobox">
+  <%= image_tag 'logo.png',
+width: 200 %>
+</div>
+<%if current_student %>
+  <div class="logout">
+    <%= link_to "学生のログアウト",destroy_student_session_path,method: :delete, class: "student_logout" %>
+  </div>
+<%elsif current_salon%>
+  <div class="logout">
+    <%= link_to "サロンのログアウト",destroy_salon_session_path,method: :delete,class: "salon_logout" %>
+  </div>
+<%end%>
+
+<%if current_salon %>
+  <div class="passpo">
+    <%= link_to "パスを投稿する",new_pass_path, class: "pass_post" %>
+  </div>
+
+<%end%>
+
+</header>
 <%= yield %>
 
 </body>

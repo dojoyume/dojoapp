@@ -1,0 +1,18 @@
+パス一覧ページ
+<br>
+<%= link_to "パスを投稿する",new_pass_path %>
+
+<% @passes.each do |pass|%>
+<%= link_to pass_path(pass.id) do%>
+
+<div>
+<%= image_tag pass.image.url %>
+<%= pass.title%>
+<%= pass.price%>円
+<%= pass.time%>分
+<%= pass.content%>
+<%= pass.conditions%>
+</div>
+<% end%>
+<% end%>
+

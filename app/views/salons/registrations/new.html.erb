@@ -1,7 +1,21 @@
-<h2>Sign up</h2>
+<div class="login_back">
+
+  <div class="sign-logobox">
+    <p class="logo2">
+      <%= image_tag 'logo.png',width: 200%>
+    </p>
+    <h1 class="top-title">be-pass</h1>
+  </div>
+
+
+<div class="login_box">
+    <h2 class="lgin-title">サロン会員</h2>
+    <div class="form_wrapper">
 
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
   <%= devise_error_messages! %>
+
+
 
   <div class="field">
     <%= f.label :email %><br />
@@ -27,3 +41,7 @@
 <% end %>
 
 <%= render "salons/shared/links" %>
+</div>
+
+</div>
+</div>

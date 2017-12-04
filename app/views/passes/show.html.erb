@@ -1,20 +1,15 @@
 パス内容
 
-<html>
-<head>
-<title>背景色を指定</title>
-</head>
-
-<body bgcolor="pink">
-
-</body>
-</html>
-
 <br>
-
-<%= @pass.title %>
+<td><%= image_tag @pass.image %></td>
+<br>
+<td><%= @pass.title %></td>
+<br>
 <%= @pass.content %>
+<br>
 <%= @pass.price %>円
+<br>
 <%= @pass.time %>分
+<br>
 <%= @pass.conditions %>
 

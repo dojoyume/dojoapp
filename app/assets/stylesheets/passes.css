@@ -1,3 +1,21 @@
-// Place all the styles related to the passes controller here.
+/*// Place all the styles related to the passes controller here.
 // They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+// You can use Sass (SCSS) here: http://sass-lang.com/*/
+
+.pass_all{
+  color:pink;
+  font-size:40px;
+  font-family:YuGothic;
+}
+
+.pass_info{
+  color:black;
+  font-size:25px;
+  font-family: 'Kokoro';
+  background-color:white;
+}
+
+
+.test{
+     font-family: 'Kokoro';
+}

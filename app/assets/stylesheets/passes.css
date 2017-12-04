@@ -5,17 +5,21 @@
 .pass_all{
   color:pink;
   font-size:40px;
-  font-family:YuGothic;
+  font-family:'Kokoro';
 }
 
 .pass_info{
   color:black;
-  font-size:25px;
+  font-size:50px;
   font-family: 'Kokoro';
   background-color:white;
 }
 
 
-.test{
-     font-family: 'Kokoro';
+.pass_detail{
+font-family: 'Kokoro';
+ font-size:40px;
+width:90%;
+margin:0 auto;
+height:500px;
 }

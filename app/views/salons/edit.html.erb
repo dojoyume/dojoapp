@@ -1,0 +1,29 @@
+
+
+
+<br>
+以下の項目を埋めてください
+
+<%= form_for (current_salon)do |f| %>
+<%= f.label :salon_name,:サロン名 %>
+<%= f.text_field :salon_name %>
+<br>
+<%= f.label :image,:写真 %>
+<%= f.file_field :image %>
+<br>
+<%= f.label :place,:住所 %>
+<%= f.text_field :place %>
+<br>
+<%= f.label :distance,:アクセス %>
+<%= f.text_field :distance %>
+<br>
+<%= f.label :staff,:スタッフ数 %>
+<%= f.number_field :staff %>
+<br>
+<%= f.label :seat,:席数 %>
+<%= f.number_field :seat %>
+<br>
+<%= f.label :pr,:サロンPR %>
+<%= f.text_area :pr %>
+
+<% end %>

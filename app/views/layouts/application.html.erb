@@ -20,6 +20,10 @@ width: 200 %>
     <% end %>
   </div>
 
+  <div>
+    <%= link_to 'ユーザー情報',edit_student_path(current_student)%>
+  </div>
+
 <%elsif current_salon%>
   <div class="logout">
     <%= link_to destroy_salon_session_path,method: :delete,class: "salon_logout" do%>
@@ -34,6 +38,10 @@ width: 200 %>
       <%= image_tag('pass-post.png',width: 200) %>
     <% end %>
   </div>
+
+  <div>
+ <%= link_to 'サロン情報',edit_salon_path(current_salon)%>
+ </div>
 
 <%end%>
 

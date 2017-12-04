@@ -1,15 +1,17 @@
-パス内容
 
+<div class="pass_detail" style="background-image: url(<%= @pass.image%>)">
+</div>
+<div class="pass_detail">
 <br>
-<td><%= image_tag @pass.image %></td>
+<!-- <td><%= image_tag @pass.image %></td> -->
 <br>
 <td><%= @pass.title %></td>
 <br>
-<%= @pass.content %>
+<h1>内容:<%= @pass.content %></h1>
 <br>
-<%= @pass.price %>円
+<h2>価格:<%= @pass.price %>円</h2>
 <br>
-<%= @pass.time %>分
+<h3>所要時間:<%= @pass.time %>分</h3>
 <br>
-<%= @pass.conditions %>
-
+<h4>条件:<%= @pass.conditions %></h4>
+</div>

@@ -4,10 +4,10 @@ pass登録ページ
 以下の項目を埋めてください
 
 <%= form_for (@pass)do |f| %>
-<%= f.label :タイトル %>
+<%= f.label :title,:タイトル %>
 <%= f.text_field :title %>
 <br>
-<%= f.label :写真 %>
+<%= f.label :image,:写真 %>
 <%= f.file_field :image %>
 <br>
 <%= f.label :content,:内容 %>

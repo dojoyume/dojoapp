@@ -28,7 +28,7 @@ Pass.create(pass_params)#ここに保存するための記述をする
 private
 
   def pass_params
-    params.require(:pass).permit(:title,:content,:price,:time,:conditions,:image)
+    params.require(:pass).permit(:title,:content,:price,:time,:conditions,:image).merge(salon_id: current_salon.id)
 
   end
 

@@ -13,16 +13,21 @@
   <%= image_tag 'logo.png',
 width: 200 %>
 </div>
+
 <%if current_student %>
   <div class="logout">
     <%= link_to destroy_student_session_path,method: :delete, class: "student_logout" do %>
       <%= image_tag('logout.png',width: 200) %>
-    <% end %>
+    <%end%>
   </div>
+<%end%>
 
-  <div>
-    <%= link_to 'ユーザー情報',edit_student_path(current_student)%>
-  </div>
+<%if current_student %>
+  <div class="student_info">
+    <%= link_to edit_student_path(current_student),class:"edit_student" do%>
+    <%= image_tag('touroku.png',width: 200) %>
+<% end %>
+</div>
 
 <%elsif current_salon%>
   <div class="logout">
@@ -38,15 +43,17 @@ width: 200 %>
       <%= image_tag('pass-post.png',width: 200) %>
     <% end %>
   </div>
+<%end%>
 
-  <div>
- <%= link_to 'サロン情報',edit_salon_path(current_salon)%>
- </div>
-
+<%if current_salon %>
+  <div class="salon_info">
+    <%= link_to edit_salon_path(current_salon), class: "edit_salon" do%>
+    <%= image_tag('touroku.png',width: 200) %>
+    <%end%>
+  </div>
 <%end%>
 
 </header>
-<%= yield %>
-
+<%=yield%>
 </body>
 </html>

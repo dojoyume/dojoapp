@@ -23,3 +23,72 @@ width:90%;
 margin:0 auto;
 height:500px;
 }
+
+.salon_form{
+  font-family: 'Kokoro';
+ font-size:40px;
+}
+
+#salon_place{
+  width:80%;
+  height:100px;
+  border:3px solid #DBDBDB;
+}
+
+#salon_salon_name{
+  width:80%;
+  height:50px;
+  border:3px solid #DBDBDB;
+}
+
+#salon_image{
+  height:30px;
+  border:1px solid #DBDBDB;
+}
+
+#salon_distance{
+  width:50%;
+  height:40px;
+  font-size: 20px;
+  border:3px solid #DBDBDB;
+}
+
+#salon_staff{
+  width:50%;
+  height:40px;
+  font-size: 20px;
+  border:3px solid #DBDBDB;
+}
+
+#salon_seat{
+  width:50%;
+  height:40px;
+  font-size: 20px;
+  border:3px solid #DBDBDB;
+}
+
+#salon_pr{
+  width:80%;
+  height:200px;
+  border:3px solid #DBDBDB;
+}
+
+#salon_hpb_url{
+  width:50%;
+  height:40px;
+  font-size: 20px;
+  border:3px solid #DBDBDB;
+}
+
+#salon_ig_url{
+  width:50%;
+  height:40px;
+  font-size: 20px;
+  border:3px solid #DBDBDB;
+}
+
+.sent{
+font-family: 'Kokoro';
+font-size: 40px;
+border:1px solid #DBDBDB;
+}

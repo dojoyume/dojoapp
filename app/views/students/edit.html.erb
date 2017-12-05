@@ -1,27 +1,43 @@
-
+<div class="student_form">
 <br>
 以下の項目を埋めてください
 
 <%= form_for (current_student)do |f| %>
-<%= f.label :salon_name,: %>
-<%= f.text_field :salon_name %>
+<%= f.label :name,:名前%>
 <br>
-<%= f.label :image,:写真 %>
+<%= f.text_field :name %>
+<br>
+
+<%= f.label :image,:プロフィール画像 %>
+<br>
 <%= f.file_field :image %>
 <br>
-<%= f.label :place,:住所 %>
-<%= f.text_field :place %>
+
+<%= f.label :school_name,:学校名 %>
 <br>
-<%= f.label :distance,:アクセス %>
-<%= f.text_field :distance %>
+<%= f.text_field :school_name, placeholder:'(例)△△美容専門学校' %>
 <br>
-<%= f.label :staff,:スタッフ数 %>
-<%= f.number_field :staff %>
+
+<%= f.label :grade,:学年 %>
 <br>
-<%= f.label :seat,:席数 %>
-<%= f.number_field :seat %>
+<%= f.number_field :grade , placeholder:'(例)2年'%>
 <br>
-<%= f.label :pr,:サロンPR %>
+
+<%= f.label :shikaku,:"資格(取得予定も含む)" %>
+<br>
+<%= f.text_field :shikaku, placeholder:'(例)美容師免許取得予定'%>
+<br>
+
+<%= f.label :pr,:自己PR %>
+<br>
 <%= f.text_area :pr %>
+<br>
+
+<%= f.label :ig_url,:'Instagram ID' %>
+<br>
+<%= f.text_area :ig_url %>
+<br>
+
+<%= f.submit :送信, class: "sent" %>
 
 <% end %>

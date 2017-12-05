@@ -14,4 +14,31 @@
 <h3>所要時間:<%= @pass.time %>分</h3>
 <br>
 <h4>条件:<%= @pass.conditions %></h4>
+
+<br>
+サロン名:<%= @pass.salon.salon_name %>
+<br>
+<%= image_tag @pass.salon.image %>
+<br>
+住所:<%= @pass.salon.place %>
+<br>
+アクセス:<%= @pass.salon.distance %>
+<br>
+スタッフ数:<%= @pass.salon.staff %>
+<br>
+席数:<%= @pass.salon.seat %>
+<br>
+サロンPR:<%= @pass.salon.pr %>
+<br>
+  <%= link_to @pass.salon.hpb_url , class: "salon_url" do%>
+    <%= image_tag('salon_hp.png',width: 200) %>
+  <%end%>
+<br>
+<%= link_to "https://www.instagram.com/#{@pass.salon.ig_url}" , class: "salon_url" do%>
+    <%= image_tag('instagram (1).png',width: 200) %>
+  <%end%>
+
 </div>
+
+
+

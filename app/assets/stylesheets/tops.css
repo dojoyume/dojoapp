@@ -10,11 +10,14 @@ a{
 
 .studentlog{
   text-align: center;
-  margin-bottom: 30px;
+  display: inline-block;
+  margin-right:40px;
+  margin-left:10px;
 }
 
 .salonlog{
   text-align: center;
+  display: inline-block;
 }
 
 .logobox{

@@ -13,11 +13,13 @@ a{
   display: inline-block;
   margin-right:40px;
   margin-left:10px;
+  margin-bottom:200px;
 }
 
 .salonlog{
   text-align: center;
   display: inline-block;
+  margin-bottom:200px;
 }
 
 .logobox{

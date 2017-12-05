@@ -25,8 +25,8 @@
 
 .top-title{
   text-align: center;
-  font-family: monospace;
-  font-size: 140px;
+  font-family: days;
+  font-size: 200px;
   line-height: 200px;
   float: left;
 }
@@ -56,6 +56,15 @@
   text-align: center;
   margin-bottom: 100px;
 }
+
+.app_info{
+  font-family: Kokoro;
+  font-size: 30px;
+  line-height: 80px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
 
 .top_logo{
   line-height: 100px;

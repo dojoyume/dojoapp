@@ -162,6 +162,7 @@ border: 1px solid #DBDBDB;
 .card-inner{
   width: 80%;
   margin:0 auto;
+  font-family: 'Kokoro'
 }
 
 .card-inner__title{
@@ -172,6 +173,7 @@ border: 1px solid #DBDBDB;
   width: 50%;
   display: inline;
   font-size: 30px;
+  margin-right:200px;
 }
 
 .card-inner__time{
@@ -179,4 +181,5 @@ border: 1px solid #DBDBDB;
   display: inline;
   font-size: 30px;
 }
+
 

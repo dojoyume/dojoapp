@@ -8,11 +8,11 @@
 </head>
 <body>
 <header>
-
+<%= link_to passes_path,class:"pass_all" do%>
 <div class="logobox">
-  <%= image_tag 'logo.png',
-width: 200 %>
+  <%= image_tag 'logo.png',width: 200 %>
 </div>
+<% end %>
 
 <%if current_student %>
   <div class="logout">

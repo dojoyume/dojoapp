@@ -9,8 +9,13 @@
           <div class="card-inner">
             <ul>
               <li class="card-inner__title"><%= pass.title%></li>
-              <li class="card-inner__price">価格:<%= pass.price%>円</li>
-              <li class="card-inner__time">所要時間:<%= pass.time%>分</li>
+              <li class="card-inner__price">
+                <%= image_tag 'moneyicon.png',width: 35,class: "icon1" %>
+                <%= pass.price%>円
+              </li>
+              <li class="card-inner__time">
+                <%= image_tag 'timeicon.png',width: 35,class: "icon2"  %> <%= pass.time%>分
+              </li>
             </ul>
           </div>
         </div>

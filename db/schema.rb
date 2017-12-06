@@ -34,7 +34,7 @@ ActiveRecord::Schema.define(version: 20171205081436) do
     t.string   "encrypted_password",     limit: 255,   default: "", null: false
     t.string   "salon_name",             limit: 255
     t.string   "place",                  limit: 255
-    t.integer  "distance",               limit: 4
+    t.string   "distance",               limit: 255
     t.string   "image",                  limit: 255
     t.string   "image2",                 limit: 255
     t.integer  "staff",                  limit: 4

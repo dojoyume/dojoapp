@@ -8,7 +8,7 @@ class DeviseCreateSalons < ActiveRecord::Migration
 
      t.string :salon_name
      t.string :place
-     t.integer :distance
+     t.string :distance
      t.string :image
      t.string :image2
      t.integer :staff

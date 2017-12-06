@@ -1,0 +1,59 @@
+
+
+<div class="salon_form">
+以下の項目を埋めてください
+
+<%= form_for (current_salon)do |f| %>
+<%= f.label :salon_name,:サロン名 %>
+<br>
+<%= f.text_field :salon_name %>
+<br>
+
+<%= f.label :image,:サロンイメージ %>
+<br>
+<%= f.file_field :image %>
+<br>
+
+<%= f.label :place,:住所 %>
+<br>
+<%= f.text_field :place %>
+<br>
+
+<%= f.label :distance,:'アクセス'
+%>
+<br>
+<%= f.text_field :distance, placeholder: '(例)渋谷駅徒歩5分' %>
+<br>
+
+<%= f.label :staff,:スタッフ数 %>
+<br>
+<%= f.number_field :staff, placeholder:'(例)6人' %>
+<br>
+
+<%= f.label :seat,:席数 %>
+<br>
+<%= f.number_field :seat,placeholder: '(例)12席' %>
+<br>
+
+<%= f.label :pr,:サロンPR %>
+<br>
+<%= f.text_area :pr %>
+<br>
+
+<%= f.label :hpb_url,:サロンURL %>
+<br>
+<%= f.text_field :hpb_url %>
+<br>
+
+<%= f.label :ig_url,:'Instagram ID'%>
+<br>
+<%= f.text_field :ig_url %>
+<br>
+
+<%= f.submit :送信, class: "sent"%>
+
+
+<% end %>
+
+</div>
+

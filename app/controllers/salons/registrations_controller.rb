@@ -20,8 +20,6 @@ class Salons::RegistrationsController < Devise::RegistrationsController
     hash[:uid] = Salon.create_unique_string
     super
   end
-
-end
   # end
 
   # PUT /resource

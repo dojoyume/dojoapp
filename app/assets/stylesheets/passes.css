@@ -1,126 +1,124 @@
-/*/*// Place all the styles related to the passes controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+
 
 .pass_all{
-  color:pink;
-  font-size:40px;
-  font-family:'Kokoro';
+  color: pink;
+  font-size: 40px;
+  font-family: 'Kokoro';
 }
 
 .pass_info{
-  color:black;
-  font-size:50px;
+  color: black;
+  font-size: 50px;
   font-family: 'Kokoro';
-  background-color:white;
+  background-color: white;
 }
 
 
 .pass_detail{
 font-family: 'Kokoro';
- font-size:40px;
-width:90%;
-margin:0 auto;
+ font-size: 40px;
+width: 90%;
+margin: 0 auto;
 }
 
 .salon_form{
   font-family: 'Kokoro';
- font-size:40px;
- margin-top:20px;
+ font-size: 40px;
+ margin-top: 20px;
 }
 
 
 #salon_place{
-  width:80%;
-  height:100px;
-  border:3px solid #DBDBDB;
+  width: 80%;
+  height: 100px;
+  border: 3px solid #DBDBDB;
 }
 
 #salon_salon_name{
-  width:80%;
-  height:50px;
-  border:3px solid #DBDBDB;
+  width: 80%;
+  height: 50px;
+  border: 3px solid #DBDBDB;
 }
 
 #salon_image{
-  height:30px;
-  border:1px solid #DBDBDB;
+  height: 30px;
+  border: 1px solid #DBDBDB;
 }
 
 #salon_distance{
-  width:50%;
-  height:40px;
+  width: 50%;
+  height: 40px;
   font-size: 20px;
-  border:3px solid #DBDBDB;
+  border: 3px solid #DBDBDB;
 }
 
 #salon_staff{
-  width:50%;
-  height:40px;
+  width: 50%;
+  height: 40px;
   font-size: 20px;
-  border:3px solid #DBDBDB;
+  border: 3px solid #DBDBDB;
 }
 
 #salon_seat{
-  width:50%;
-  height:40px;
+  width: 50%;
+  height: 40px;
   font-size: 20px;
-  border:3px solid #DBDBDB;
+  border: 3px solid #DBDBDB;
 }
 
 #salon_pr{
-  width:80%;
-  height:200px;
-  border:3px solid #DBDBDB;
+  width: 80%;
+  height: 200px;
+  border: 3px solid #DBDBDB;
 }
 
 #salon_hpb_url{
-  width:50%;
-  height:40px;
+  width: 50%;
+  height: 40px;
   font-size: 20px;
-  border:3px solid #DBDBDB;
+  border: 3px solid #DBDBDB;
 }
 
 #salon_ig_url{
-  width:50%;
-  height:40px;
+  width: 50%;
+  height: 40px;
   font-size: 20px;
-  border:3px solid #DBDBDB;
+  border: 3px solid #DBDBDB;
 }
 
 .sent{
 font-family: 'Kokoro';
 font-size: 40px;
-border:1px solid #DBDBDB;
+border: 1px solid #DBDBDB;
 }
 
 .passes_form{
  font-family: 'Kokoro';
- font-size:40px;
- margin-top:20px;
+ font-size: 40px;
+ margin-top: 20px;
 }
 
 #pass_title{
-  width:80%;
-  height:50px;
-  border:3px solid #DBDBDB;
+  width: 80%;
+  height: 50px;
+  border: 3px solid #DBDBDB;
 }
 
 #pass_image{
-  height:30px;
-  border:1px solid #DBDBDB;
+  height: 30px;
+  border: 1px solid #DBDBDB;
 }
 
 #pass_content{
-  width:80%;
-  height:200px;
-  border:3px solid #DBDBDB;
+  width: 80%;
+  height: 200px;
+  border: 3px solid #DBDBDB;
 }
 
 #pass_conditions{
-  width:80%;
-  height:200px;
-  border:3px solid #DBDBDB;
+  width: 80%;
+  height: 200px;
+  border: 3px solid #DBDBDB;
 }
 
 #pass_price{

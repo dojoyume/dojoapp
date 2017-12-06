@@ -13,7 +13,7 @@ footer{
   height:80px;
   width:100%;
   text-align: center;
-  position:fixed;
+  position: fixed;
   bottom:0;
 }
  
@@ -29,15 +29,15 @@ a{
 .studentlog{
   text-align: center;
   display: inline-block;
-  margin-right:40px;
-  margin-left:10px;
-  margin-bottom:200px;
+  margin-right: 40px;
+  margin-left: 10px;
+  margin-bottom: 200px;
 }
 
 .salonlog{
   text-align: center;
   display: inline-block;
-  margin-bottom:200px;
+  margin-bottom: 200px;
 }
 
 .logobox{
@@ -68,7 +68,7 @@ a{
   width: 200px;
   float: right;
   text-align: center;
-  margin-right:10px;
+  margin-right: 10px;
 }
 
 .salon_logout{
@@ -79,13 +79,13 @@ a{
 .salon_info{
   float: right;
   line-height: 150px;
-  margin-right:10px;
+  margin-right: 10px;
 }
 
 .student_info{
   float: right;
   line-height: 150px;
-  margin-right:10px;
+  margin-right: 10px;
 }
 
 .under-header-box{
@@ -97,5 +97,5 @@ a{
 }
 
 .pass_describe{
-  margin:30px;
+  margin: 30px;
 }

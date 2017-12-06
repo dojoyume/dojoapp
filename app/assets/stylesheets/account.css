@@ -51,7 +51,7 @@
 
 .catch_copy{
   font-family: Kokoro;
-  font-size: 80px;
+  font-size: 60px;
   line-height: 100px;
   text-align: center;
   margin-bottom: 100px;
@@ -65,11 +65,17 @@
   margin-bottom: 50px;
 }
 
+.ribon{
+  margin-top:50px;
+  margin-bottom:50px;
+}
+
 
 .top_logo{
   line-height: 100px;
   text-align: center;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
+  margin-top:100px;
 }
 
 #student_email,#salon_email{

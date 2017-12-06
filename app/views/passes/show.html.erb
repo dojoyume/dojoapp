@@ -2,40 +2,43 @@
 <div class="pass_detail" style="background-image: url(<%= @pass.image%>)">
 </div>
 <div class="pass_detail">
-<br>
-<!-- <td><%= image_tag @pass.image %></td> -->
-<br>
-<td><%= @pass.title %></td>
-<br>
-<h1>内容:<%= @pass.content %></h1>
-<br>
-<h2>価格:<%= @pass.price %>円</h2>
-<br>
-<h3>所要時間:<%= @pass.time %>分</h3>
-<br>
-<h4>条件:<%= @pass.conditions %></h4>
+<div>
+  <%= image_tag @pass.image %>
+</div>
 
+<div class="pass_describe">
+  <p><%= @pass.title %></p>
+  <br>
+  <p>内容:<%= @pass.content %></p>
+  <br>
+  <p>価格:<%= @pass.price %>円</p>
+  <br>
+  <p>所要時間:<%= @pass.time %>分</p>
+  <br>
+  <p>条件:<%= @pass.conditions %></p>
+</div>
+
+<p>サロン名:<%= @pass.salon.salon_name %></p>
 <br>
-サロン名:<%= @pass.salon.salon_name %>
+<p><%= image_tag @pass.salon.image %>
+</p>
 <br>
-<%= image_tag @pass.salon.image %>
+<p>住所:<%= @pass.salon.place %></p>
 <br>
-住所:<%= @pass.salon.place %>
+<p>アクセス:<%= @pass.salon.distance %></p>
 <br>
-アクセス:<%= @pass.salon.distance %>
+<p>スタッフ数:<%= @pass.salon.staff %>人</p>
 <br>
-スタッフ数:<%= @pass.salon.staff %>
+<p>席数:<%= @pass.salon.seat %>席</p>
 <br>
-席数:<%= @pass.salon.seat %>
+<p>サロンPR:<%= @pass.salon.pr %></p>
 <br>
-サロンPR:<%= @pass.salon.pr %>
-<br>
-  <%= link_to @pass.salon.hpb_url , class: "salon_url" do%>
-    <%= image_tag('salon_hp.png',width: 200) %>
+<p><%= link_to @pass.salon.hpb_url , class: "salon_url" do%>
+    <%= image_tag('salon_hp.png',width: 400) %></p>
   <%end%>
 <br>
-<%= link_to "https://www.instagram.com/#{@pass.salon.ig_url}" , class: "salon_url" do%>
-    <%= image_tag('instagram (1).png',width: 200) %>
+<p><%= link_to "https://www.instagram.com/#{@pass.salon.ig_url}" , class: "salon_url" do%>
+    <%= image_tag('instagram (1).png',width: 200) %></p>
   <%end%>
 
 </div>

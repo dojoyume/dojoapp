@@ -1,27 +1,34 @@
-pass登録ページ
 
-<br>
+<div class="passes_form">
+
 以下の項目を埋めてください
 
 <%= form_for (@pass)do |f| %>
-<%= f.label :title,:タイトル %>
-<%= f.text_field :title %>
+<%= f.label :title,:メニュー %>
 <br>
-<%= f.label :image,:写真 %>
+<%= f.text_field :title, placeholder: '(例)メンテナンスカット' %>
+<br>
+<%= f.label :image,:イメージ画像 %>
 <%= f.file_field :image %>
 <br>
 <%= f.label :content,:内容 %>
-<%= f.text_area :content %>
 <br>
-<%= f.label :price,:値段 %>
-<%= f.number_field :price %>
+<%= f.text_area :content, placeholder: '(例)毛先を整えたり、前髪をカットするメンテナンスです。大幅なスタイルチェンジはできません。' %>
+<br>
+<%= f.label :price,:価格 %>
+<br>
+<%= f.number_field :price, placeholder: '(例)500' %>円
 <br>
 <%= f.label :time,:所要時間 %>
-<%= f.number_field :time %>
+<br>
+<%= f.number_field :time, placeholder: '(例)30' %>分
 <br>
 <%= f.label :conditions,:条件 %>
-<%= f.text_area :conditions %>
 <br>
-<%= f.submit :送信 %>
+<%= f.text_area :conditions, placeholder: '(例)美容師免許取得予定の方、美容専門学校所属の方、アンケートに答えてくださる方' %>
+<br>
+<%= f.submit :送信, class: "sent"%>
 
 <% end %>
+</div>
+

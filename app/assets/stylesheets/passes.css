@@ -1,6 +1,6 @@
-/*// Place all the styles related to the passes controller here.
+/*/*// Place all the styles related to the passes controller here.
 // They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/*/
+// You can use Sass (SCSS) here: http://sass-lang.com/
 
 .pass_all{
   color:pink;
@@ -21,13 +21,14 @@ font-family: 'Kokoro';
  font-size:40px;
 width:90%;
 margin:0 auto;
-height:500px;
 }
 
 .salon_form{
   font-family: 'Kokoro';
  font-size:40px;
+ margin-top:20px;
 }
+
 
 #salon_place{
   width:80%;
@@ -92,3 +93,92 @@ font-family: 'Kokoro';
 font-size: 40px;
 border:1px solid #DBDBDB;
 }
+
+.passes_form{
+ font-family: 'Kokoro';
+ font-size:40px;
+ margin-top:20px;
+}
+
+#pass_title{
+  width:80%;
+  height:50px;
+  border:3px solid #DBDBDB;
+}
+
+#pass_image{
+  height:30px;
+  border:1px solid #DBDBDB;
+}
+
+#pass_content{
+  width:80%;
+  height:200px;
+  border:3px solid #DBDBDB;
+}
+
+#pass_conditions{
+  width:80%;
+  height:200px;
+  border:3px solid #DBDBDB;
+}
+
+#pass_price{
+  width:50%;
+  height:40px;
+  font-size: 20px;
+  border:3px solid #DBDBDB;
+}
+
+#pass_time{
+  width:50%;
+  height:40px;
+  font-size: 20px;
+  border:3px solid #DBDBDB;
+}
+
+.card_wrapper{
+  background-color: #f5f5f5;
+  padding-top: 15px;
+}
+
+.card{
+  border-radius: 3px;
+  box-shadow: 0 1px 4px 0 rgba(12, 12, 13,0.1);
+  margin-bottom: 20px;
+}
+
+
+.pass_image{
+  height: 500px;
+  width: 100%;
+}
+
+.pass_info{
+  color:black;
+  font-size:50px;
+  font-family: 'Kokoro';
+  background-color:white;
+}
+
+.card-inner{
+  width: 80%;
+  margin:0 auto;
+}
+
+.card-inner__title{
+  font-weight: bold;
+}
+
+.card-inner__price{
+  width: 50%;
+  display: inline;
+  font-size: 30px;
+}
+
+.card-inner__time{
+  width: 50%;
+  display: inline;
+  font-size: 30px;
+}
+

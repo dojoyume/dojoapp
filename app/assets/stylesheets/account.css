@@ -25,7 +25,7 @@
 
 .top-title{
   text-align: center;
-  font-family: days;
+  font-family: 'days';
   font-size: 200px;
   line-height: 200px;
   float: left;
@@ -42,7 +42,7 @@
 }
 
 .app_name{
-  font-family: days;
+  font-family: 'days';
   font-size: 300px;
   line-height: 200px;
   text-align: center;
@@ -50,7 +50,7 @@
 }
 
 .catch_copy{
-  font-family: Kokoro;
+  font-family: 'Kokoro';
   font-size: 60px;
   line-height: 100px;
   text-align: center;
@@ -58,7 +58,7 @@
 }
 
 .app_info{
-  font-family: Kokoro;
+  font-family: 'Kokoro';
   font-size: 30px;
   line-height: 80px;
   text-align: center;

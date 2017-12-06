@@ -167,19 +167,20 @@ border: 1px solid #DBDBDB;
 
 .card-inner__title{
   font-weight: bold;
+  font-size: 60px;
 }
 
 .card-inner__price{
   width: 50%;
   display: inline;
-  font-size: 30px;
+  font-size: 45px;
   margin-right:200px;
 }
 
 .card-inner__time{
   width: 50%;
   display: inline;
-  font-size: 30px;
+  font-size: 45px;
 }
 
 

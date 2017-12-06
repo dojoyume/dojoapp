@@ -1,0 +1,561 @@
+.login_back{
+  height: 100vh;
+}
+
+.sign-logobox{
+  height: 300px;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-left: 70px;
+}
+
+.login_box{
+ font: white;
+ width: 70%;
+ margin: 0 auto;
+ font-size: 40px;
+ font-family: monospace;
+ background-color: rgba(255,255,255,0.92);
+}
+
+.form_wrapper{
+  padding-top: 100px;
+}
+
+.top-title{
+  text-align: center;
+  font-family: 'days';
+  font-size: 200px;
+  line-height: 200px;
+  float: left;
+}
+
+.logo2{
+  display: inline-block;
+  float: left;
+}
+
+.lgin-title{
+  text-align: center;
+  font-size: 30px;
+}
+
+.app_name{
+  font-family: 'days';
+  font-size: 300px;
+  line-height: 200px;
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+.catch_copy{
+  font-family: 'Kokoro';
+  font-size: 60px;
+  line-height: 100px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.app_info{
+  font-family: 'Kokoro';
+  font-size: 30px;
+  line-height: 80px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.ribon{
+  margin-top:50px;
+  margin-bottom:50px;
+}
+
+
+.top_logo{
+  line-height: 100px;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+
+#student_email, #salon_email{
+  width: 100%;
+  height: 70px;
+  border: 1px solid #DBDBDB;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+#student_password, #salon_password, #student_password_confirmation, #salon_password_confirmation {
+  width: 100%;
+  height: 70px;
+  border: 1px solid #DBDBDB;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+#student_remember_me, #salon_remember_me{
+  width: 32px;
+  height: 32px;
+}
+
+.login_submit{
+  background: #c05c85;
+  width: 100%;
+  height: 60px;
+  color: white;
+  font-size: 40px;
+}
+
+.sepa_line{
+  padding-top: 50px;
+  border-bottom: 1px solid black;
+}
+
+.icon{
+  display: inline-block;
+  height: 100px;
+  width: 200px;
+  margin-right: 19px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.sns-icon{
+    border-radius: 50%;
+    width: 120px;
+  }
+
+  .middle{
+    text-align: center;
+  }
+
+  .small{
+    font-size: 30px;
+  }
+
+
+.pass_all{
+  color: pink;
+  font-size: 40px;
+  font-family: 'Kokoro';
+}
+
+.pass_info{
+  color: black;
+  font-size: 50px;
+  font-family: 'Kokoro';
+  background-color: white;
+}
+
+
+.pass_detail{
+font-family: 'Kokoro';
+ font-size: 40px;
+width: 90%;
+margin: 0 auto;
+}
+
+.salon_form{
+  font-family: 'Kokoro';
+ font-size: 40px;
+ margin-top: 20px;
+}
+
+
+#salon_place{
+  width: 80%;
+  height: 100px;
+  border: 3px solid #DBDBDB;
+}
+
+#salon_salon_name{
+  width: 80%;
+  height: 50px;
+  border: 3px solid #DBDBDB;
+}
+
+#salon_image{
+  height: 30px;
+  border: 1px solid #DBDBDB;
+}
+
+#salon_distance{
+  width: 50%;
+  height: 40px;
+  font-size: 20px;
+  border: 3px solid #DBDBDB;
+}
+
+#salon_staff{
+  width: 50%;
+  height: 40px;
+  font-size: 20px;
+  border: 3px solid #DBDBDB;
+}
+
+#salon_seat{
+  width: 50%;
+  height: 40px;
+  font-size: 20px;
+  border: 3px solid #DBDBDB;
+}
+
+#salon_pr{
+  width: 80%;
+  height: 200px;
+  border: 3px solid #DBDBDB;
+}
+
+#salon_hpb_url{
+  width: 50%;
+  height: 40px;
+  font-size: 20px;
+  border: 3px solid #DBDBDB;
+}
+
+#salon_ig_url{
+  width: 50%;
+  height: 40px;
+  font-size: 20px;
+  border: 3px solid #DBDBDB;
+}
+
+.sent{
+font-family: 'Kokoro';
+font-size: 40px;
+border: 1px solid #DBDBDB;
+}
+
+.passes_form{
+ font-family: 'Kokoro';
+ font-size: 40px;
+ margin-top: 20px;
+}
+
+#pass_title{
+  width: 80%;
+  height: 50px;
+  border: 3px solid #DBDBDB;
+}
+
+#pass_image{
+  height: 30px;
+  border: 1px solid #DBDBDB;
+}
+
+#pass_content{
+  width: 80%;
+  height: 200px;
+  border: 3px solid #DBDBDB;
+}
+
+#pass_conditions{
+  width: 80%;
+  height: 200px;
+  border: 3px solid #DBDBDB;
+}
+
+#pass_price{
+  width:50%;
+  height:40px;
+  font-size: 20px;
+  border:3px solid #DBDBDB;
+}
+
+#pass_time{
+  width:50%;
+  height:40px;
+  font-size: 20px;
+  border:3px solid #DBDBDB;
+}
+
+.card_wrapper{
+  background-color: #f5f5f5;
+  padding-top: 15px;
+}
+
+.card{
+  border-radius: 3px;
+  box-shadow: 0 1px 4px 0 rgba(12, 12, 13,0.1);
+  margin-bottom: 20px;
+}
+
+
+.pass_image{
+  height: 500px;
+  width: 100%;
+}
+
+.pass_info{
+  color:black;
+  font-size:50px;
+  font-family: 'Kokoro';
+  background-color:white;
+}
+
+.card-inner{
+  width: 80%;
+  margin:0 auto;
+  font-family: 'Kokoro'
+}
+
+.card-inner__title{
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.card-inner__price{
+  width: 50%;
+  display: inline;
+  font-size: 45px;
+  margin-right:200px;
+}
+
+.card-inner__time{
+  width: 50%;
+  display: inline;
+  font-size: 45px;
+}
+
+
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+/* line 1, /Users/tech-camp/projects/dojoapp/app/assets/stylesheets/students.scss */
+.student_form {
+  font-family: 'Kokoro';
+  font-size: 40px;
+}
+
+/* line 6, /Users/tech-camp/projects/dojoapp/app/assets/stylesheets/students.scss */
+#student_name {
+  width: 80%;
+  height: 50px;
+  border: 3px solid #DBDBDB;
+}
+
+/* line 12, /Users/tech-camp/projects/dojoapp/app/assets/stylesheets/students.scss */
+#student_image {
+  height: 30px;
+  border: 1px solid #DBDBDB;
+}
+
+/* line 17, /Users/tech-camp/projects/dojoapp/app/assets/stylesheets/students.scss */
+#student_school_name {
+  width: 50%;
+  height: 40px;
+  font-size: 20px;
+  border: 3px solid #DBDBDB;
+}
+
+/* line 24, /Users/tech-camp/projects/dojoapp/app/assets/stylesheets/students.scss */
+#student_grade {
+  width: 50%;
+  height: 40px;
+  font-size: 20px;
+  border: 3px solid #DBDBDB;
+}
+
+/* line 31, /Users/tech-camp/projects/dojoapp/app/assets/stylesheets/students.scss */
+#student_shikaku {
+  width: 50%;
+  height: 40px;
+  font-size: 20px;
+  border: 3px solid #DBDBDB;
+}
+
+/* line 38, /Users/tech-camp/projects/dojoapp/app/assets/stylesheets/students.scss */
+#student_pr {
+  width: 80%;
+  height: 200px;
+  border: 3px solid #DBDBDB;
+}
+
+/* line 44, /Users/tech-camp/projects/dojoapp/app/assets/stylesheets/students.scss */
+#student_ig_url {
+  width: 50%;
+  height: 40px;
+  font-size: 20px;
+  border: 3px solid #DBDBDB;
+}
+@font-face {
+  font-family: 'Kokoro';
+  src: url(/assets/Kokoro-d0e06423e469754aa0483398a4fa02ea9e26b3104c0c6dbe7331d40b7804c8f3.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Corbeau';
+  src: url(/assets/GesseleRegular-cc4bc381b333c937eca24224af011eef937719ebf3204353472f310adc97ffa0.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'days';
+  src: url(/assets/StrangeDays-f6ec180fd1cb03c000f823195d35432eddb44a92c2d50d7276df5ea769bbc083.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+header{
+  background-color: pink;
+  height:150px;
+  width:100%;
+  position:fixed;
+  top:0;
+}
+
+footer{
+  background-color: pink;
+  font-family: 'Kokoro';
+  font-size:15px;
+  height:80px;
+  width:100%;
+  text-align: center;
+  position: fixed;
+  bottom:0;
+}
+ 
+body {
+  margin-bottom: 5em;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+.studentlog{
+  text-align: center;
+  display: inline-block;
+  margin-right: 40px;
+  margin-left: 10px;
+  margin-bottom: 200px;
+}
+
+.salonlog{
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 200px;
+}
+
+.logobox{
+  height: 100%;
+  width: 200px;
+  float: left;
+}
+
+.logout{
+  height: 100%;
+  width: 200px;
+  float: right;
+  text-align: center;
+}
+
+.student_logout{
+  line-height: 150px;
+  text-align: center;
+}
+
+.pass_post{
+  line-height: 150px;
+  text-align: center;
+}
+
+.passpo{
+  height: 100%;
+  width: 200px;
+  float: right;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.salon_logout{
+  line-height: 150px;
+  text-align: center;
+}
+
+.salon_info{
+  float: right;
+  line-height: 150px;
+  margin-right: 10px;
+}
+
+.student_info{
+  float: right;
+  line-height: 150px;
+  margin-right: 10px;
+}
+
+.under-header-box{
+  height: 150px;
+}
+
+.under-footer-box{
+  height: 80px;
+}
+
+.pass_describe{
+  margin: 30px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+

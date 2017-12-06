@@ -8,7 +8,7 @@
   </div>
 
   <div class="login_box">
-    <h2 class="lgin-title">サロンログイン</h2>
+    <h2 class="lgin-title">学生ログイン</h2>
     <div class="form_wrapper">
       <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
 
@@ -44,9 +44,8 @@
         <%= image_tag 'twitter.jpg', class: 'sns-icon'%>
       <% end %>
     </div>
-
     <div class="icon">
-      <%= link_to salon_facebook_omniauth_authorize_path do %>
+      <%= link_to '#' do %>
         <%= image_tag 'facebook.jpg', class: 'sns-icon' %>
       <% end %>
     </div>

@@ -8,7 +8,7 @@
 
 .pass_info{
   color: black;
-  font-size: 50px;
+  font-size: 60px;
   font-family: 'Kokoro';
   background-color: white;
 }
@@ -182,4 +182,8 @@ border: 1px solid #DBDBDB;
   font-size: 30px;
 }
 
-
+.pass_details_title{
+  font-size:50px;
+  color:white;
+  background-color:pink;
+}
